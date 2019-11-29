@@ -1,0 +1,405 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ul, li, ol,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ul ,li{
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+	width:1500px;
+	margin:auto;
+}
+
+.box1{
+	border:8px solid black;
+	height:900px;
+	position:relative;
+	border-radius:50px;
+	background-size:1500px 900px;
+	margin-top:20px;
+}
+
+h1{
+	font-family:DFKai-sb;
+	font-size:120px;
+	margin-top:200px;
+	margin-left:90px;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+.box1 img{
+	width:600px;
+	height:600px;
+	position:absolute;
+	right:50px;
+	top:170px;
+}
+
+.p1{
+	font-family:DFKai-sb;
+	font-size:70px;
+	margin-top:100px;
+	margin-left:235px;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+.p2{
+	font-family:DFKai-sb;
+	font-size:40px;
+	margin-top:100px;
+	margin-left:285px;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+.p2 p{
+	margin-bottom:px;
+}
+
+.menu{
+	border:8px solid black;
+	text-align:center;
+	height:900px;
+	width:1500px;
+	border-radius:50px;
+	background-size:1500px 900px;
+	margin-top:20px;
+}
+
+li{
+	margin-top:45px;
+	font-size:50px;
+	font-family:DFKai-sb;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+.think{
+	border:8px solid black;
+	text-align:center;
+	font-family:DFKai-sb;
+	font-weight:bold;
+	border-radius:50px;
+	background-size:1500px 900px;
+	width:1500px;
+	height:900px;
+	margin-top:20px;
+}
+
+.think li{
+	margin-top:50px;
+}
+
+.think img{
+	width:1000px;
+	height:400px;
+	margin-top:50px;
+	border-radius:50px;
+}
+
+.video{
+	border:8px solid black;
+	text-align:center;
+	border-radius:50px;
+	background-size:1500px 900px;
+	width:1500px;
+	height:900px;
+	margin-top:50px;
+}
+
+iframe{
+	margin-top:20px;
+	margin-bottom:20px;
+	border-radius:50px;
+}
+
+h2{
+	margin-top:20px;
+	font-family:DFKai-sb;
+	font-size:50px;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+.theme{
+	border:8px solid black;
+	text-align:center;
+	font-family:DFKai-sb;
+	border-radius:50px;
+	background-size:1500px 900px;
+	width:1500px;
+	height:900px;
+	margin-top:20px;
+}
+
+.theme img{
+	margin-top:50px;
+	width:900px;
+	height:500px;
+	border-radius:50px;
+}
+
+h3{
+	font-size:50px;
+	margin-top:20px;
+	color:#FFFFFF;
+	font-weight:bold;
+	margin-top:50px;
+}
+
+h4{
+	margin-top:20px;
+	margin-bottom:20px;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+.company{
+	border:8px solid black;
+	text-align:center;
+	font-family:DFKai-sb;
+	font-size:50px;
+	color:#FFFFFF;
+	font-weight:bold;
+	border-radius:50px;
+	background-size:1500px 900px;
+	width:1500px;
+	height:900px;
+	margin-top:20px;
+}
+
+.company p{
+	margin:50px;
+}
+
+.death,.money{
+	border:8px solid black;
+	text-align:center;
+	font-family:DFKai-sb;
+	font-size:50px;
+	color:#FFFFFF;
+	font-weight:bold;
+	border-radius:50px;
+	background-size:1500px 900px;
+	width:1500px;
+	height:900px;
+	margin-top:20px;
+}
+
+.death p{
+	margin-top:50px;
+}
+
+.death a{
+	border:3px solid black;
+	border-radius:50px;
+	font-size:100px;
+}
+
+.death a:hover{
+	color:blue;
+}
+
+.death a{
+	color:red;
+}
+
+table{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	text-align:center
+	color:#FFFFFF;
+	font-weight:bold;
+	padding-top:20px;
+}
+
+h5{
+	margin-top:50px;
+	margin-bottom:50px;
+}
+
+.table{
+	border-radius:50px;
+	border:8px solid black;
+	font-family:DFKai-sb;
+	font-size:40px;
+	text-align:center;
+	padding-right:50px;
+	padding-left:50px;
+	background-size:1500px 900px;
+	width:1400px;
+	height:900px;
+	margin-top:20px;
+}
+
+.table tr,.table td{
+	border:2px solid black;
+	padding-top:20px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:20px;
+	border-color:#FFFFFF;
+}
+
+.table p,.table td{
+	color:#FFFFFF;
+	padding-top:10px;
+}
+
+.buy{
+	border:8px solid black;
+	text-align:center;
+	font-family:DFKai-sb;
+	font-size:50px;
+	color:#FFFFFF;
+	font-weight:bold;
+	border-radius:50px;
+	background-size:1500px 900px;
+	padding:20px;
+	margin-top:20px;
+	width:1460px;
+	height:860px;
+}
+
+.buy tr,.buy td{
+	border:2px solid black;
+	width:1300px;
+	border-color:#FFFFFF;
+	padding-top:10px;
+}
+
+.buy img{
+	width:550px;
+	height:350px;
+}
+
+.buy .style{
+	height:840px;
+}
+
+.buy .know{
+	height:800px;
+	width:1200px;
+	margin-top:20px;
+}
+
+.box2{
+	border:8px solid black;
+	text-align:center;
+	font-family:DFKai-sb;
+	font-size:50px;
+	color:#FFFFFF;
+	font-weight:bold;
+	border-radius:50px;
+	background-size:1500px 900px;
+	width:1500px;
+	height:900px;
+	margin-top:20px;
+}
+
+.box2 div{
+	margin-bottom:20px;
+	padding-top:20px;
+}
+
+.data{
+	border:8px solid black;
+	text-align:center;
+	font-family:DFKai-sb;
+	font-size:50px;
+	color:#FFFFFF;
+	font-weight:bold;
+	border-radius:50px;
+	background-size:1500px 900px;
+	width:1500px;
+	height:900px;
+	margin-top:20px;
+}
+
+.data a:hover{
+	color:blue;
+	font-family:DFKai-sb;
+	font-size:50px;
+	font-weight:bold;
+}
+
+.data a{
+	color:red;
+	font-family:DFKai-sb;
+	font-size:50px;
+	font-weight:bold;
+}
+
+.data p{
+	margin-bottom:20px;
+	padding-top:20px;
+}
+
+.people{
+	border:8px solid black;
+	text-align:center;
+	font-family:DFKai-sb;
+	font-size:50px;
+	color:#FFFFFF;
+	font-weight:bold;
+	border-radius:50px;
+	background-size:1500px 900px;
+	width:1500px;
+	height:900px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.people ul{
+	display:inline;
+	line-height:110px;
+}
+
+.people p{
+	color:#d9dc1c;
+}
