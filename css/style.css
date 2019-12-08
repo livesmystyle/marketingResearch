@@ -142,6 +142,26 @@ li{
 	border-radius:50px;
 }
 
+.time{
+	border:8px solid black;
+	text-align:center;
+	font-family:DFKai-sb;
+	font-weight:bold;
+	border-radius:50px;
+	background-size:1500px 900px;
+	width:1500px;
+	height:900px;
+	margin-top:20px;
+}
+
+.time p{
+	margin-top:20px;
+	font-size:35px;
+	font-family:DFKai-sb;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
 .video{
 	border:8px solid black;
 	text-align:center;
@@ -149,7 +169,7 @@ li{
 	background-size:1500px 900px;
 	width:1500px;
 	height:900px;
-	margin-top:50px;
+	margin-top:20px;
 }
 
 iframe{
@@ -360,6 +380,7 @@ h5{
 	width:1500px;
 	height:900px;
 	margin-top:20px;
+	margin-bottom:20px;
 }
 
 .data a:hover{
@@ -367,6 +388,10 @@ h5{
 	font-family:DFKai-sb;
 	font-size:50px;
 	font-weight:bold;
+}
+
+.data .D{
+	margin-top:20px;
 }
 
 .data a{
@@ -378,10 +403,11 @@ h5{
 
 .data p{
 	margin-bottom:20px;
-	padding-top:20px;
+	margin-top:20px;
+	color:#d9dc1c;
 }
 
-.people{
+.xmas{
 	border:8px solid black;
 	text-align:center;
 	font-family:DFKai-sb;
@@ -394,13 +420,4 @@ h5{
 	height:900px;
 	margin-top:20px;
 	margin-bottom:20px;
-}
-
-.people ul{
-	display:inline;
-	line-height:110px;
-}
-
-.people p{
-	color:#d9dc1c;
 }
